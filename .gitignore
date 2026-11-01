@@ -1,0 +1,51 @@
+# =========================================================================
+# Unity Standard Gitignore
+# =========================================================================
+
+# Folder buatan Unity yang bersifat lokal dan otomatis dibuat ulang
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Build]/
+/[Builds]/
+/[Logs]/
+/[MemoryCaptures]/
+/UserSettings/
+
+# File hasil build atau kompilasi (jika Anda melakukan build di dalam folder proyek)
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Asset buatan yang tidak perlu dilacak (seperti cache pencarian)
+/[As][Ss][Ee][Tt][Ss]/[Aa]ssetstore[Tt]ools*
+
+# =========================================================================
+# Source Control & OS Files
+# =========================================================================
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
+
+# File konfigurasi IDE / Code Editor
+.vs/
+.idea/
+*.sln
+*.csproj
+*.unityproj
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.com.unity.ide.vscode/
+
+# =========================================================================
+# Crashlytics & Keystore (Keamanan)
+# =========================================================================
+crashlytics-build.properties
+*.keystore
+!/[Aa]ssets/**/[Editor]/*.keystore
